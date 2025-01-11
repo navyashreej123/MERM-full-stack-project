@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body {
+    /* width: 100vh;
+    height: 100vh; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+ul img {
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.main {
+    margin-top: 15px;
+    font-size: large;
+}
+
+ul,
+li {
+    display: inline;
+    padding: 10px;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.space {
+    margin-left: 100px;
+    display: inline;
+}
+
+.search {
+    float: right;
+    margin-top: 5px;
+    /* padding: 5px; */
+    margin-right: 150px;
+    /* font-size: large; */
+}
+
+.butclass {
+    padding: 5px;
+    font-size: large;
+    border-radius: 5px;
+    color: white;
+    background: #0072be;
+    border: 1px solid rgba(255, 255, 255, 0.267);
+}
+
+.butclass:hover {
+    background-color: #0a659e;
+}
+
+.ser {
+    padding: 3px;
+    margin-right: 5px;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid rgb(198, 197, 197);
+}
+
+.img {
+    /* margin-top: 2px ; */
+    padding-top: 2px;
+}
+
+.line {
+    margin: 30px;
+    text-align: center;
+}
+
+.alink {
+    text-decoration: underline;
+    color: #0072be;
+}
+
+.ch1 {
+    text-align: center;
+    font-size: 75px;
+    /* text-wrap-style: balance; */
+}
+
+.button {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    word-spacing: 5px;
+
+}
+
+.butt1 {
+    padding: 8px;
+    font-size: large;
+    background-color: #0072be;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.267);
+}
+
+.butt1:hover {
+    background-color: #0a659e;
+}
+
+.butt2 {
+    padding: 8px;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid rgb(198, 197, 197);
+}
+
+.center {
+    /* display: inline-block; */
+    text-align: center;
+    font-size: small;
+}
+
+.spacehover {
+    font-size: small;
+    text-align: center;
+    /* display: none; */
+    margin: 10px;
+    visibility: hidden;
+}
+
+.spacehover:hover {
+    display: inline-block;
+}
+
+.pointer {
+    color: black;
+}
+
+.imgadj {
+    /* margin: 20px 500px 10px 50px; */
+    margin-top: 30px;
+    margin-left: 250px;
+    width: 1100px;
+    height: 650px;
+    box-sizing: border-box;
+}
+
+#Replay {
+    margin: 20px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.cont {
+    display: flex;
+    /* border: 1px solid black; */
+    height: 380px;
+    width: 1200px;
+    margin-left: 210px;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.cont>div {
+
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid rgba(129, 126, 126, 0.411);
+    width: 500px;
+    height: 320px;
+    border-radius: 10px;
+}
+
+.itm11,
+.itm21,
+.itm31 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.itemcol {
+    color: #475569;
+    ;
+}
+
+.imgclass {
+    width: 1160px;
+    margin-left: 225px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container1 {
+    display: flex;
+    height: 590px;
+    width: 1150px;
+    margin-left: 235px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.itmimg {
+    height: 500px;
+    margin-left: 80px;
+}
+
+.itmimg7 {
+    height: 340px;
+    margin-left: 55px;
+}
+
+.container2 {
+    display: flex;
+    height: 360px;
+    width: 1150px;
+    margin-left: 235px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img7down {
+    text-align: center;
+    margin-left: 650px;
+    font-size: small;
+}
+
+.container3 {
+    display: flex;
+    height: 200px;
+    width: 1150px;
+    margin-left: 235px;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+#img8 {
+    margin-left: 100px;
+    width: 700px;
+}
+
+.bluecolr {
+    color: #0072be;
+}
+
+.itmimg9 {
+    height: 500px;
+    width: 750px;
+    margin-left: 50px;
+}
+
+.container9 {
+    display: flex;
+    height: 590px;
+    width: 1150px;
+    margin-left: 235px;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+#last {
+    text-align: center;
+}
+
+#laststyle {
+    margin-left: 500px;
+    width: 500px;
+    color: #475569;
+    margin-top: 20px;
+}
+.img11{
+    margin-left: 150px;
+    width: 1300px;
+    margin-top: 20px;
+}
+.lastcont{
+    
+}
+.footcont {
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footinf {
+    color: #475569;
+    font-size: 14px;
+    font-weight: 500;
+}
